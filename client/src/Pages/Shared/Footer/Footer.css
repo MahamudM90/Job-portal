@@ -1,0 +1,28 @@
+footer {
+    height: fit-content;
+    background-color: #1976d2;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+  }
+  footer img {
+    width: 50px;
+    height: 50px;
+  }
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+  .navLogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .rights {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 14px !important;
+  }

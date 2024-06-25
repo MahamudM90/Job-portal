@@ -1,0 +1,9 @@
+.signupTxt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .signupTxt a {
+    color: #1976d2;
+    text-decoration: none;
+  }
