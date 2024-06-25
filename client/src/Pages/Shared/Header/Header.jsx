@@ -43,7 +43,7 @@ const Header = () => {
               sx={{ flexGrow: 1 }}
               className="title"
             >
-              <Link to="/">Job Portal</Link>
+              <Link to="/">JobSphere</Link>
             </Typography>
             {user?.uid ? (
               <div>

@@ -16,10 +16,7 @@ export default function Slider(){
 
     return(
         <div>
-        
-            <p className='font-poppins'>Journilsm without Fear at Favour</p>
             <p className='font-poppins'>{currentTime.format('MMMM Do YYYY, h:mm:ss a')}</p> 
-            
             <Marquee>
                 <div className='border rounded-lg w-full h-full font-poppins'>
                 <button className="btn btn-active btn-secondary w-1/7 h-1/7 ">Latest News</button> Welcome you will get latest Job
