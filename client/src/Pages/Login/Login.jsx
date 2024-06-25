@@ -45,7 +45,7 @@ const Login = () => {
         };
 
         //get token
-        fetch("https://job-portal-vh83.onrender.com/jwt", {
+        fetch("http://localhost:5000/jwt", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

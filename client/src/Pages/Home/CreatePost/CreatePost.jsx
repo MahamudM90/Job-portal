@@ -45,7 +45,7 @@ const CreatePost = () => {
     setCreatedPost(createdPost);
     console.log(createdPost);
 
-    fetch("https://job-portal-vh83.onrender.com/createPost", {
+    fetch("http://localhost:5000/createPost", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

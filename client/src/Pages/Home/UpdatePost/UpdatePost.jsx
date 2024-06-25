@@ -42,7 +42,7 @@ const UpdatePost = () => {
     setUpdatedPost(updatedPost);
     console.log(updatedPost);
 
-    fetch(`https://job-portal-vh83.onrender.com/updatePost/${loadPost._id}`, {
+    fetch(`http://localhost:5000/updatePost/${loadPost._id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",

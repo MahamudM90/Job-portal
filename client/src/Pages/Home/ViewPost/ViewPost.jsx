@@ -18,7 +18,7 @@ const ViewPost = () => {
       `Are you sure you want to delete this post? ${post.postName}`
     );
     if (deletePost) {
-      fetch(`https://job-portal-vh83.onrender.com/deletePost/${post._id}`, {
+      fetch(`http://localhost:5000/${post._id}`, {
         method: "DELETE",
       })
         .then((res) => res.json())
@@ -37,7 +37,7 @@ const ViewPost = () => {
   };
 
   useEffect(() => {
-    fetch("https://job-portal-vh83.onrender.com/posts", {
+    fetch("http://localhost:5000/posts", {
       headers: {
         authorization: `Bearer ${localStorage.getItem("job-token")}`,
       },
