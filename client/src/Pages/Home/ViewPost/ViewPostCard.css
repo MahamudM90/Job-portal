@@ -1,0 +1,18 @@
+.singlePost {
+    padding: 30px;
+  }
+  .description {
+    margin-left: 30px;
+    padding: 10px;
+  }
+  
+  .viewBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .viewBtn a {
+    color: white;
+    text-decoration: none;
+  }
