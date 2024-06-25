@@ -3,8 +3,9 @@ import { Typography, Grid } from "@mui/material";
 
 import { useState, useEffect } from "react";
 import ViewPostCard from "./ViewPostCard";
-import { AuthContext } from "./../../../contexts/AuthProvider";
+import { AuthContext } from "../../../Context/AuthProvider";
 import toast from "react-hot-toast";
+import Slider from "../Slider/Slider";
 
 const ViewPost = () => {
   const [posts, setPosts] = useState();
@@ -51,6 +52,8 @@ const ViewPost = () => {
   }, [user?.email, logOutUser, posts]);
 
   return (
+    <div>
+      <Slider></Slider>
     <div className="viewPost">
       <Grid container spacing={2}>
         <Grid item xs={12} sm={12}>
@@ -86,6 +89,7 @@ const ViewPost = () => {
           </Grid>
         )}
       </Grid>
+    </div>
     </div>
   );
 };

@@ -16,7 +16,7 @@ const Footer = () => {
           </Typography>
         </div>
         <Typography className="rights">
-          All Rights Reserved &copy; 2023
+        💙Developed By Mahamud Hasan &copy; 2024
         </Typography>
       </div>
     </CssBaseline>

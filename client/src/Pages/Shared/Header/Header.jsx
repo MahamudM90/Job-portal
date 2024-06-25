@@ -8,9 +8,8 @@ import IconButton from "@mui/material/IconButton";
 import "./Header.css";
 import { Link } from "react-router-dom";
 import { CssBaseline } from "@mui/material";
-import logo from "../../../Assets/logo.jpg";
-
-import { AuthContext } from "../../../contexts/AuthProvider";
+import logo from '../../../Assests/logo.png'
+import { AuthContext } from "../../../Context/AuthProvider";
 import toast from "react-hot-toast";
 
 const Header = () => {
@@ -25,7 +24,7 @@ const Header = () => {
 
   return (
     <CssBaseline>
-      <Box sx={{ flexGrow: 1 }}>
+      <Box sx={{ flexGrow: 1}}>
         <AppBar position="static">
           <Toolbar className="footerNav">
             <Link to="/">

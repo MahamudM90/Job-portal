@@ -11,7 +11,7 @@ import Container from "@mui/material/Container";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import "./Login.css";
 import { Link, useNavigate, useLocation } from "react-router-dom";
-import { AuthContext } from "../../contexts/AuthProvider";
+import { AuthContext } from "../../Context/AuthProvider";
 import toast from "react-hot-toast";
 
 const theme = createTheme();
