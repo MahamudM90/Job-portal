@@ -60,7 +60,7 @@ const SingUp = () => {
             <HowToRegIcon />
           </Avatar>
           <Typography component="h1" variant="h5">
-            Registration
+            Sign Up
           </Typography>
           <Box
             component="form"
@@ -94,7 +94,7 @@ const SingUp = () => {
               variant="contained"
               sx={{ mt: 3, mb: 2 }}
             >
-              Registration
+              Sign Up
             </Button>
             <Grid container className="signupTxt">
               <Grid item>
