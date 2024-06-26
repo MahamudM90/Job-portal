@@ -5,8 +5,8 @@
 Job Portal using React, React Router DOM, Material UI, MongoDB, Express, Node.js, and JWT.
 
 ## Live Deployed Link  
-[CLient Side Link](https://dietify.vercel.app/) <br>
-[Server Side Link](https://dietify-backend.vercel.app/)
+[ Side Link](https://dietify.vercel.app/) <br>
+
 
 
 ## How to Install the Local Machine
