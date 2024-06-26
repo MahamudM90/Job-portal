@@ -45,7 +45,7 @@ const CreatePost = () => {
     setCreatedPost(createdPost);
     console.log(createdPost);
 
-    fetch("http://localhost:5000/createPost", {
+    fetch("https://portal-backend-iota.vercel.app/createPost", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

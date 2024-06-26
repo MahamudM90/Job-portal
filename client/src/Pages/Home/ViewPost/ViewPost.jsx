@@ -18,7 +18,7 @@ const ViewPost = () => {
       `Are you sure you want to delete this post? ${post.postName}`
     );
     if (deletePost) {
-      fetch(`http://localhost:5000/deletePost/${post._id}`, {
+      fetch(`https://portal-backend-iota.vercel.app/deletePost/${post._id}`, {
         method: "DELETE",
       })
         .then((res) => res.json())
@@ -37,7 +37,7 @@ const ViewPost = () => {
   };
 
   useEffect(() => {
-    fetch("http://localhost:5000/posts", {
+    fetch("https://portal-backend-iota.vercel.app/posts", {
       headers: {
         authorization: `Bearer ${localStorage.getItem("job-token")}`,
       },

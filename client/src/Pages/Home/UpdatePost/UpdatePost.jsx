@@ -42,7 +42,7 @@ const UpdatePost = () => {
     setUpdatedPost(updatedPost);
     console.log(updatedPost);
 
-    fetch(`http://localhost:5000/updatePost/${loadPost._id}`, {
+    fetch(`https://portal-backend-iota.vercel.app/updatePost/${loadPost._id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
