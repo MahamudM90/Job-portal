@@ -54,12 +54,12 @@ const Header = () => {
                   <Button color="inherit">View Job Posts</Button>
                 </Link>
                 <Button color="inherit" onClick={handleLogout}>
-                  Logout
+                  SignOut
                 </Button>
               </div>
             ) : (
               <Link to="/login" className="loginBtn">
-                <Button color="inherit">Login</Button>
+                <Button color="inherit">Sign In</Button>
               </Link>
             )}
           </Toolbar>

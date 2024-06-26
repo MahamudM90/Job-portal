@@ -18,7 +18,7 @@ const ViewPost = () => {
       `Are you sure you want to delete this post? ${post.postName}`
     );
     if (deletePost) {
-      fetch(`http://localhost:5000/${post._id}`, {
+      fetch(`http://localhost:5000/deletePost/${post._id}`, {
         method: "DELETE",
       })
         .then((res) => res.json())
